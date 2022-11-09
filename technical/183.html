@@ -1,0 +1,675 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- /technical/183.html  17:14:12 GMT -->
+<!--  --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- / -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="applicable-device" content="pc,mobile">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<link rel="canonical" href="183.html" />
+<title>西门子的＂simotion＂ 和数控系统的主要区别有哪-安顺佳</title>
+<meta name="keywords" content="">
+<meta name="description" content="
+	数控系统是用于机械加工方面，如机床。应用范围不同。产品的功能也不同，。
+
+	SIMOTION是一个全新的西门子运动控制系统，它是世界上款针对生产机械而设计的控制系统，将运动控制，逻辑控制及工艺控制功能集成于一身，为生产机械提供了完">
+<link href="../templets/default/style/style.css" rel="stylesheet" type="text/css" />
+<script src="../templets/default/style/jquery.min.js" type="text/javascript"></script>
+<script src="../templets/default/style/script.js" type="text/javascript"></script>
+<link rel="stylesheet" href="../templets/default/style/animate.min.css">
+<link rel='stylesheet' id='wp-block-library-css'  href='../wp-includes/css/dist/block-library/style.min1eb7.css?ver=6.0.3' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+</head>
+<body>
+<div class="head" id="head">
+<div class="container">
+	<div class="logo"><h1><a href="../index.html"><img src="../templets/default/images/logo.jpg" alt="变频器维修,伺服驱动器维修,发那科维修,伺服电机维修-湖北安顺佳" /></a></h1></div>
+	<div class="nav">
+		<ul class="nav_pc">
+		<li><a href="../index.html">首页</a></li>
+		<li><a href="../aboutus/index.html">关于我们</a></li>
+			<li>
+				<a href="../repair-center/index.html">维修中心</a>
+				<div class="div1">
+					<div class="p1">
+<a href="../repair-1/index.html">数控系统维修</a>
+<a href="../repair-2/index.html">变频器维修</a>
+<a href="../repair-3/index.html">伺服驱动器维修</a>
+<a href="../jqrwx/index.html">机器人维修</a>
+<a href="../repair-4/index.html">直流调速器维修</a>
+<a href="../repair-5/index.html">伺服电机维修</a>
+<a href="../repair-6/index.html">工控触摸屏维修</a>
+<a href="../repair-7/index.html">西门子维修</a>
+<a href="../repair-8/index.html">软启动器维修</a>
+<a href="../repair-9/index.html">电源模块维修</a>
+									</div>
+					<div class="clear"></div>
+				</div>
+			</li>
+			<li><a href="index.html">技术专区</a></li>
+			<li><a href="../news/index.html">新闻资讯</a></li>
+			<li><a href="../contactus/index.html">联系我们</a></li>
+			<div class="clear"></div>
+		</ul>
+	</div>
+	<div class="clear"></div>
+	</div>
+</div>
+<!--移动端导航开始-->
+<div class="moblie_head">
+	<div class="mlogo"><strong><a href="../index.html"><img src="../templets/default/images/logo.jpg" alt="变频器维修,伺服驱动器维修,发那科维修,伺服电机维修-湖北安顺佳" /></a></strong></div>
+	<div class="mnav"><img src="../templets/default/images/1_07.png"></div>
+	<div class="clear"></div>
+</div>
+<div class="mobile-menu">
+	<div class="div1 a-closed"></div>
+	<div class="div2">
+		<a href="javascript:;" class="a-closed">
+		<img src="../templets/default/images/close.png" width="22"></a>
+	</div>
+	<div class="div3">
+		<ul>
+			<li><a href="../index.html">首页</a></li>
+		<li><a href="../aboutus/index.html">关于我们</a></li>
+			<li>
+<a class="dlink" href="../repair-center/index.html">维修中心</a><a class="down-a" href="javascript:;"></a>
+				<div class="down-menu">
+					<a href="../repair-1/index.html">数控系统维修</a>
+<a href="../repair-2/index.html">变频器维修</a>
+<a href="../repair-3/index.html">伺服驱动器维修</a>
+<a href="../jqrwx/index.html">机器人维修</a>
+<a href="../repair-4/index.html">直流调速器维修</a>
+<a href="../repair-5/index.html">伺服电机维修</a>
+<a href="../repair-6/index.html">工控触摸屏维修</a>
+<a href="../repair-7/index.html">西门子维修</a>
+<a href="../repair-8/index.html">软启动器维修</a>
+<a href="../repair-9/index.html">电源模块维修</a>
+					</div>
+			</li>
+			<li><a href="index.html">技术专区</a></li>
+			<li><a href="../news/index.html">新闻资讯</a></li>
+			<li><a href="../contactus/index.html">联系我们</a></li>
+			<div class="clear"></div>
+		</ul>
+	</div>
+</div>
+<div class="tcme"></div><div class="weixiu-item-title">
+<div class="container">
+<h3 class="item-title">技术专区</h3><div class="itemcontact"><a href="https://w102.ttkefu.com/k/linkurl/?t=6B1GIC8" target="_blank"></a></div><div class="mob_itemcontact"><a href="tel:18018311529" target="_blank"></a></div>
+</div>
+</div>
+<div class="weixiu-article">
+<div class="article-top">
+<h1 class="weixiu-article-title">西门子的＂simotion＂ 和数控系统的主要区别有哪</h1>
+<div class="article-info"><span class="ais1">2018-07-13</span><span class="ais2"></span></div>
+</div>
+<div class="weixiu-article-content">
+			<div>
+	数控系统是用于机械加工方面，如机床。应用范围不同。产品的功能也不同，。</div>
+<div>
+	SIMOTION是一个全新的西门子运动控制系统，它是世界上款针对生产机械而设计的控制系统，将运动控制，逻辑控制及工艺控制功能集成于一身，为生产机械提供了完整的解决方案。&nbsp;</div>
+<div>
+	&#8212;-机械运动越来越复杂，对速度及精度的要求也越来越高。SIMOTION面向的行业主要是包装机械，橡塑机械，锻压机械，纺织机械，以及其他生产机械领域，正是针对复杂运动控制而推出的全新运动控制系统。&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	&#8212;-SIMOTION运动控制系统：&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	由一个系统来完成所有的运动控制任务&nbsp;</div>
+<div>
+	适用于具有许多运动部件的机器&nbsp;</div>
+<div>
+	&#8212;-SIMOTION系统具有三个组成部分&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	工程开发系统&nbsp;</div>
+<div>
+	&#8212;-工程开发系统可以实现由一个系统解决所有运动控制、逻辑及工艺控制的问题，并且它还能够提供所有必要的工具，从编程到参数设定，从测试调试到故障诊断。</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	实时软件模块&nbsp;</div>
+<div>
+	&#8212;-这些模块提供了众多的运动控制及工艺控制功能。针对某一特定的机器所需的功能，灵活地选择相关的模块。</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	硬件平台&nbsp;</div>
+<div>
+	&#8212;-硬件平台是SIMOTION运动控制系统的基础。使由工程开发系统所开发的且使用了实时软件模块的应用程序可以运行在不同的硬件平台上，用户可以选择适合自己机器的硬件平台。&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	数控系统的概念&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; &nbsp; &nbsp; 数控系统是数字控制系统的简称，英文名称为Numerical Control System,早期是由硬件电路构成的称为硬件数控（Hard NC），1970年代以后，硬件电路元件逐步由专用的计算机代替称为计算机数控系统。</div>
+<div>
+	&nbsp; &nbsp; &nbsp; &nbsp; 计算机数控（Computerized numerical control,简称CNC）系统是用计算机控制加工功能，实现数值控制的系统。CNC系统根据计算机存储器中存储的控制程序，执行部分或全部数值控制功能，并配有接口电路喝伺服驱动装置的专用计算机系统。</div>
+<div>
+	&nbsp; &nbsp; &nbsp; &nbsp; CNC系统由数控程序、输入装置、输出装置、计算机数控装置（CNC装置）、可编程逻辑控制器（PLC）、主轴驱动装置喝进给（伺服）驱动装置（包括检测装置）等组成。CNC系统的核心是CNC装置。由于使用了计算机，系统具有了软件功能，又用PLC代替了传统的机床电器逻辑控制装置，使系统更小巧，其灵活性、通用性、可靠性，易于实现复杂的数控功能，使用、维护也方便，并具有与上位机连接及进行远程通信功能。</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; &nbsp; 数控系统的分类</div>
+<div>
+	&nbsp;</div>
+<div>
+	数控系统的种类很多，从不同角度对其进行考查，就有不同的分类方法，通常有以下几种不同的分类方法：</div>
+<div>
+	（1） 按控制功能分类</div>
+<div>
+	1） 点位控制数控机床</div>
+<div>
+	在点位控制数控机床中，工件相对于刀具运动，直到到达零件程序规定的位置后停止，在运动过程中不进行任何加工。刀具在定位点处执行切削任务。点位控制数控系统只准确控制坐标运动的终位置，而对轨迹不作控制要求。为了定位和提高生产率，系统首先高速运行，然后进行减速，使之缓慢趋近定位点以减少定位误差。点位控制数控机床主要有数控钻床、印刷电路板钻孔机、数控镗床、数控冲床、三坐标测量机等。</div>
+<div>
+	2） 轮廓控制数控机床</div>
+<div>
+	在轮廓控制(连续轨迹)数控机床中，数控系统控制几个坐标轴同时谐调运动(坐标联动)，使工件相对于刀具按程序规定的轨迹和速度运动，在运动过程中进行连续切削加工。</div>
+<div>
+	可实现联动加工是这类数控机床的本质特征。这类数控机床有数控车床、数控铣床、加工中心等用于加工曲线和曲面形状零件的数控机床。现代的数控机床基本上都是这种类型。若根据其联动轴数还可细分为：2轴联动数控机床、3轴联动数控机床、4轴联动数控机床、5轴联动数控机床。</div>
+<div>
+	&nbsp;其中联动轴数越多，数控机床的功能越齐全，可以加工的曲面轮廓越复杂，加工精度和效率越高，但系统控制、程序编制也越复杂，只有使用自动编程系统来编制</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	数控系统的发展趋势</div>
+<div>
+	&nbsp;</div>
+<div>
+	从1952年美国麻省理工学院研制出台试验性数控系统，到现在已走过了半个世纪历程。随着电子技术和控制技术的飞速发展，当今的数控系统功能已经强大，与此同时加工技术以及一些其他相关技术的发展对数控系统的发展和进步提出了新的要求。</div>
+<div>
+	&nbsp;</div>
+<div>
+	趋势之一：数控系统向开放式体系结构发展</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	20世纪90年代以来，由于计算机技术的飞速发展，推动数控技术更快的更新换代。世界上许多数控系统生产厂家利用PC机丰富的软、硬件资源开发开放式体系结构的新一代数控系统。开放式体系结构使数控系统有的通用性、柔性、适应性、可扩展性，并可以较容易的实现智能化、网络化。近几年许多纷纷研究开发这种系统，如美国科学制造中心(NCMS)与空军共同领导的&ldquo;下一代工作站/机床控制器体系结构&rdquo;NGC，欧共体的&ldquo;自动化系统中开放式体系结构&rdquo;OSACA，日本的OSEC计划等。开放式体系结构可以大量采用通用微机技术，使编程、操作以及技术升级和更新变得更加简单快捷。开放式体系结构的新一代数控系统，其硬件、软件和总线规范都是对外开放的，数控系统制造商和用户可以根据这些开放的资源进行的系统集成，同时它也为用户根据实际需要灵活配置数控系统带来方便，促进了数控系统多档次、多品种的开发和广泛应用，开发生产周期大大缩短。同时，这种数控系统可随CPU升级而升级，而结构可以保持不变。</div>
+<div>
+	&nbsp;</div>
+<div>
+	趋势之二：数控系统向软数控方向发展</div>
+<div>
+	现在，实际用于工业现场的数控系统主要有以下四种类型，分别代表了数控技术的不同发展阶段，对不同类型的数控系统进行分析后发现，数控系统不但从封闭体系结构向开放体系结构发展，而且正在从硬数控向软数控方向发展的趋势。</div>
+<div>
+	传统数控系统，如FANUC 0系统、MITSUBISHI M50系统、SINUMERIK 810M/T/G系统等。这是一种专用的封闭体系结构的数控系统。目前，这类系统还是占领了制造业的大部分市场。但由于开放体系结构数控系统的发展，传统数控系统的市场正在受到挑战，已逐渐减小。</div>
+<div>
+	&ldquo;PC嵌入NC&rdquo;结构的开放式数控系统，如FANUC18i、16i系统、SINUMERIK 840D系统、Num1060系统、AB 9/360等数控系统。这是一些数控系统制造商将多年来积累的数控软件技术和当今计算机丰富的软件资源相结合开发的产品。它具有的开放性，但由于它的NC部分仍然是传统的数控系统，用户无法介入数控系统的核心。这类系统结构复杂、功能强大，价格昂贵。</div>
+<div>
+	&ldquo;NC嵌入PC&rdquo;结构的开放式数控系统 它由开放体系结构运动控制卡和PC机共同构成。这种运动控制卡通常选用高速DSP作为CPU，具有很强的运动控制和PLC控制能力。它本身就是一个数控系统，可以单独使用。它开放的函数库供用户在WINDOWS平台下自行开发构造所需的控制系统。因而这种开放结构运动控制卡被广泛应用于制造业自动化控制各个领域。如美国Delta Tau公司用PMAC多轴运动控制卡构造的PMAC-NC数控系统、日本MAZAK公司用三菱电机的MELDASMAGIC 64构造的MAZATROL 640 CNC等。</div>
+<div>
+	SOFT型开放式数控系统 这是一种开放体系结构的数控系统。它提供给用户的选择和灵活性，它的CNC软件全部装在计算机中，而硬件部分仅是计算机与伺服驱动和外部I/O之间的标准化通用接口。就像计算机中可以安装各种品牌的声卡和相应的驱动程序一样。用户可以在WINDOWS NT平台上，利用开放的CNC内核，开发所需的各种功能，构成各种类型的高性能数控系统，与前几种数控系统相比，SOFT型开放式数控系统具有的性能价格比，因而有生命力。通过软件智能替代复杂的硬件，正在成为当代数控系统发展的重要趋势。其典型产品有美国MDSI公司的Open CNC、德国Power Automation公司的PA8000 NT等。</div>
+<div>
+	趋势之三：数控系统控制性能向智能化方向发展</div>
+<div>
+	智能化是21世纪制造技术发展的一个大方向。随着人工智能在计算机领域的渗透和发展，数控系统引入了自适应控制、模糊系统和神经网络的控制机理，不但具有自动编程、前馈控制、模糊控制、学习控制、自适应控制、工艺参数自动生成、三维刀具补偿、运动参数动态补偿等功能，而且人机界面极为友好，并具有故障诊断专家系统使自诊断和故障监控功能更趋完善。伺服系统智能化的主轴交流驱动和智能化进给伺服装置，能自动识别负载并自动优化调整参数。</div>
+<div>
+	&nbsp;</div>
+<div>
+	世界上正在进行研究的智能化切削加工系统很多，其中日本智能化数控装置研究会针对钻削的智能加工方案具有代表性。</div>
+<div>
+	&nbsp;</div>
+<div>
+	趋势之四：数控系统向网络化方向发展</div>
+<div>
+	数控系统的网络化，主要指数控系统与外部的其它控制系统或上位计算机进行网络连接和网络控制。数控系统一般首先面向生产现场和企业内部的局域网，然后再经由因特网通向企业外部，这就是所谓Internet/Intranet技术。&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	随着网络技术的成熟和发展，近业界又提出了数字制造的概念。数字制造，又称&ldquo;e-制造&rdquo;，是机械制造企业现代化的标志之一，也是先进机床制造商当今标准配置的供货方式。随着信息化技术的大量采用，越来越多的国内用户在进口数控机床时要求具有远程通讯服务等功能。</div>
+<div>
+	&nbsp;</div>
+<div>
+	数控系统的网络化进一步促进了柔性自动化制造技术的发展，现代柔性制造系统从点(数控单机、加工中心和数控复合加工机床)、线(FMC、FMS、FTL、FML)向面(工段车间独立制造岛、FA)、体(CIMS、分布式网络集成制造系统)的方向发展。柔性自动化技术以易于联网和集成为目标，同时注重加强单元技术的开拓、完善，数控机床及其构成柔性制造系统能方便地与CAD、CAM、CAPP、MTS联结，向信息集成方向发展，网络系统向开放、集成和智能化方向发展。</div>
+<div>
+	&nbsp;</div>
+<div>
+	趋势之五：数控系统向高可靠性方向发展</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	随着数控机床网络化应用的日趋广泛，数控系统的高可靠性已经成为数控系统制造商追求的目标。对于每天工作两班的无人工厂而言，如果要求在16小时内连续正常工作，无故障率在P(t)＝99%以上，则数控机床的平均无故障运行时间MTBF就大于3000小时。我们只对某一台数控机床而言，如主机与数控系统的失效率之比为10:1(数控的可靠比主机高一个数量级)。此时数控系统的MTBF就要大于33333.3小时，而其中的数控装置、主轴及驱动等的MTBF就大于10万小时。如果对整条生产线而言，可靠性要求还要更高。</div>
+<div>
+	&nbsp;</div>
+<div>
+	当前国外数控装置的MTBF值已达6000小时以上，驱动装置达30000小时以上，但是，可以看到距理想的目标还有差距。</div>
+<div>
+	&nbsp;</div>
+<div>
+	趋势之六：数控系统向复合化方向发展</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	在零件加工过程中有大量的无用时间消耗在工件搬运、上下料、安装调整、换刀和主轴的升、降速上，为了尽可能降低这些无用时间，人们希望将不同的加工功能整合在同一台机床上，因此，复合功能的机床成为近年来发展很快的机种。&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	柔性制造范畴的机床复合加工概念是指将工件一次装夹后，机床便能按照数控加工程序，自动进行同一类工艺方法或不同类工艺方法的多工序加工，以完成一个复杂形状零件的主要乃至全部车、铣、钻、镗、磨、攻丝、铰孔和扩孔等多种加工工序。</div>
+<div>
+	&nbsp;</div>
+<div>
+	普通的数控系统软件针对不同类型的机床使用不同的软件版本，比如Siemens的810M系统和802D系统就有车床版本和铣床版本之分。复合化的要求促使数控系统功能的整合。目前，主流的数控系统开发商都能提供高性能的复合机床数控系统。&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	趋势之七：数控系统向多轴联动化方向发展</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	由于在加工自由曲面时，3轴联动控制的机床无法避免切速接近于零的球头铣刀端部参予切削，进而对工件的加工质量造成破坏性影响，而5轴联动控制对球头铣刀的数控编程比较简单，并且能使球头铣刀在铣削3维曲面的过程中始终保持合理的切速，从而显着改善加工表面的粗糙度和大幅度提高加工效率，因此，各大系统开发商不遗余力地开发5轴、6轴联动数控系统，随着5轴联动数控系统和编程软件的成熟和日益普及，5轴联动控制的加工中心和数控铣床已经成为当前的一个开发热点。</div>
+<div>
+	&nbsp;</div>
+<div>
+	近，国外主要的系统开发商在6轴联动控制系统的研究上已经取得和很大进展，在6轴联动加工中心上可以使用非旋转刀具加工任意形状的三维曲面，且切深可以很薄，但加工效率太低一时尚难实用化。</div>
+<div>
+	&nbsp;</div>
+<div>
+	电子技术、信息技术、网络技术、模糊控制技术的发展使新一代数控系统技术水平大大提高，促进了数控机床产业的蓬勃发展，也促进了现代制造技术的快速发展。数控机床性能在高速度、高精度、高可靠性和复合化、网络化、智能化、柔性化、绿色化方面取得了长足的进步。现代制造业正在迎来一场新的技术革命。</div>
+			 
+</div>
+<div class="article-pre-next" >
+<div class="article-prev">上一篇: <a href="../news/182.html" rel="prev">加工中心数控系统的两大巨头：西门子和发那科</a></div>
+<div class="article-next">下一篇: <a href="../news/184.html" rel="next">一个“动作”烧掉整套西门子840d数控系统</a></div>
+</div>
+<div class="article-tag">
+</div>
+</div>
+<div class="clear"></div>
+<div class="weixiu-about">
+<div class="weixiu-title">
+<h3 class="weixiu-stit">变频器维修，认准安顺佳数控</h3>
+<div class="weixiu-sdesc wow bounceIn">维修，我们专业，大家都认可！</div>
+</div>
+<div class="weixiu-center">
+<div class="about-item">
+<div class="inabout-img1 floatleft wow bounceInLeft"><img src="../templets/default/images/abys1.jpg"></div>
+<div class="inabout-text1 floatright wow bounceInRight">
+<div class="inablbg"></div>
+<div class="inab-text-title"><b>16年</b>维修经验，<b>8名</b>专业工程师！</div>
+<div class="inab-text-desc">安顺佳数控科技有限公司拥有一支高技术、高素质的专业维修技术团队，<br />能快速高效地帮助您排除各种工控设备产生的任何故障，<br />及时检测出故障之问题所在并进行快速修复，在短的时间内保证设备正常工作。</div>
+</div>
+</div>
+<div class="clear"></div>
+<div class="about-item">
+<div class="inabout-img1 floatright wow bounceInRight" data-wow-delay="0.1s"><img src="../templets/default/images/abys2.jpg"></div>
+<div class="inabout-text1 floatleft textright wow bounceInLeft" data-wow-delay="0.1s">
+<div class="inabrbg"></div>
+<div class="inab-text-title">测试平台齐全，保证维修<b>成功率高</b>！</div>
+<div class="inab-text-desc">安顺佳公司拥有变频器负载测试台，数控系统，伺服驱动器等一系列工控测试平台，<br />包括西门子，发那科，海德汉，贝加莱，力士乐，科尔摩根，发格，LUST，伦茨，三菱等一系列测试平台。</div>
+</div>
+</div>
+<div class="clear"></div>
+<div class="about-item">
+<div class="inabout-img1 floatleft wow bounceInLeft" data-wow-delay="0.1s"><img src="../templets/default/images/abys3.jpg"></div>
+<div class="inabout-text1 floatright wow bounceInRight" data-wow-delay="0.1s">
+<div class="inablbg"></div>
+<div class="inab-text-title"><b>免费</b>检测，免费咨询，上门/寄送维修！</div>
+<div class="inab-text-desc">本公司100公里范围内，上门取机，送机。<br />协助客户解决现场问题，高效优质的为您解决问题，<br />因为专业所以值得信赖，你身边的工控维修中心。</div>
+</div>
+</div>
+<div class="clear"></div>
+<div class="about-item">
+<div class="inabout-img1 floatright wow bounceInRight" data-wow-delay="0.1s"><img src="../templets/default/images/abys4.jpg"></div>
+<div class="inabout-text1 floatleft textright wow bounceInLeft" data-wow-delay="0.1s">
+<div class="inabrbg"></div>
+<div class="inab-text-title">售后服务<b>完善</b>，维修售后质量有保障！</div>
+<div class="inab-text-desc">公司拥有专业售后服务团队，解决您的一切后顾之忧。<br />售后服务部门，是由高级技术人才，运营，商务组建而成，<br />专业针对客户现场问题，设备问题，一对一解决。</div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+<div class="wxshow">
+	<div class="container">
+		<div class="wxshow-left">
+			<h3>安顺佳维修案例精选</h3>
+			<p>实力见证，服务好每位用户！</p>
+			<a href="https://w102.ttkefu.com/k/linkurl/?t=6B1GIC8">免费咨询</a>
+		</div>
+		<div class="wxshow-right">
+			<div class="wxshow-list wow bounceInUp">
+				<ul>
+					<li>
+						<div class="list_pic">
+							<img src="../templets/default/images/cimg1.jpg"/>
+						</div>
+						<h4>变频器维修案例</h4>
+						<p>周边地区提供上门维修，偏远地区可选择寄送维修服务！</p>
+					</li>
+					<li>
+						<div class="list_pic">
+							<img src="../templets/default/images/cimg2.jpg"/>
+						</div>
+						<h4>伺服电机维修实例</h4>
+						<p>伺服电机及伺服驱动器系列工控设备维修，我们更专业！</p>
+					</li>
+<li>
+						<div class="list_pic">
+							<img src="../templets/default/images/cimg3.jpg"/>
+						</div>
+						<h4>伺服驱动器维修案例</h4>
+						<p>伺服器，驱动器，伺服控制器，伺服放大器专业维修！</p>
+					</li>					
+				</ul>
+			</div>
+			<div class="wxshow-list list2 wow bounceInUp" data-wow-delay="0.3s">
+				<ul>
+					<li>
+						<div class="list_pic">
+							<img src="../templets/default/images/cimg4.jpg"/>
+						</div>
+						<h4>数控系统维修案例</h4>
+						<p>测试平台齐全，专业维修服务！</p>
+					</li>
+					<li>
+						<div class="list_pic">
+							<img src="../templets/default/images/cimg5.jpg"/>
+						</div>
+						<h4>工控触摸屏维修案例</h4>
+						<p>工控屏及触摸屏维修服务！</p>
+					</li>
+					<li>
+						<div class="list_pic">
+							<img src="../templets/default/images/cimg6.jpg"/>
+						</div>
+						<h4>直流调速器维修案例</h4>
+						<p>维修各类品牌直流调速器！</p>
+					</li>	
+				</ul>						
+			</div>
+			<div class="wxshow-list wow bounceInUp" data-wow-delay="0.6s">
+				<ul>
+					<li>
+						<div class="list_pic">
+							<img src="../templets/default/images/cimg7.jpg"/>
+						</div>
+						<h4>PLC维修案例</h4>
+						<p>PLC模块，电源模块，软启动器维修服务！</p>
+					</li>
+					<li>
+						<div class="list_pic">
+							<img src="../templets/default/images/cimg8.jpg"/>
+						</div>
+						<h4>机器人维修案例</h4>
+						<p>机器人示教器及控制设备维修！</p>
+					</li>
+					<li>
+						<div class="list_pic">
+							<img src="../templets/default/images/cimg9.jpg"/>
+						</div>
+						<h4>仪器仪表维修案例</h4>
+						<p>各类型及品牌仪器仪表维修！</p>
+					</li>					
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="clear"></div>
+<div class="weixiufuwu">
+<div class="weixiu-title">
+<h3 class="weixiu-stit">工控/仪器仪表维修</h3>
+<div class="weixiu-sdesc wow bounceIn">专业程度，大家有目共睹！</div>
+</div>
+<div class="wxfw-center">
+<div class="wxfw-left wow bounceInLeft">
+<div class="wxfl-left-title">维修品牌</div>
+<ul>
+<li>西门子</li>
+<li>ABB</li>
+<li>安川</li>
+<li>松下</li>
+<li>富士</li>
+<li>施耐德</li>
+<li>艾默生CT</li>
+<li>SEW</li>
+<li>三菱</li>
+<li>丹佛斯</li>
+<li>台达</li>
+<li>台安</li>
+<li>东元</li>
+<li>LS(LG)</li>
+<li>汇川</li>
+<li>英威腾</li>
+<li>海利普</li>
+<li>普传</li>
+<li>康沃</li>
+<li>安邦信</li>
+<li>易能</li>
+<li>伟肯</li>
+<li>东芝</li>
+<li>士林</li>
+<li>科比</li>
+<li>伦茨Lenze</li>
+<li>罗克韦尔</li>
+<li>日立</li>
+<li>森兰</li>
+<li>伟创</li>
+<li>四方</li>
+<li>博世力士乐</li>
+<li>正弦</li>
+<li>阿尔法</li>
+<li>欧姆龙</li>
+<li>三垦</li>
+<li>欧陆</li>
+<li>派克Parker</li>
+<li>发那科FANUC</li>
+<li>海德汉</li>
+<li>贝加莱</li>
+<li>科尔摩根</li>
+<li>LUST</li>
+<li>埃斯顿</li>
+<li>海泰克</li>
+<li>proface</li>
+<li>宝元</li>
+<li>新代</li>
+<li>发格FAGOR</li>
+<li>NUM</li>
+<li>哈斯HAAS</li>
+<li>大隈OKUMA</li>
+<li><a href="https://w102.ttkefu.com/k/linkurl/?t=6B1GIC8" target="_blank" rel="nofollow">报价</a></li>
+</ul>
+<p>数控系统维修，变频器维修，伺服驱动器维修，伺服电机维修，直流调速器维修，PLC维修，工控触摸屏维修，软启动器维修，电源模块维修</p>
+</div>
+<div class="wxfw-right wow bounceInRight">
+<div class="wxfl-right-title">维修地域</div>
+<p style="font-size:14px;">华东，华南，华中，华北，东北，西北，西南，北京，上海，天津，重庆……</p>
+<ul>
+<li>南京</li>
+<li>无锡</li>
+<li>徐州</li>
+<li>湖北</li>
+<li>苏州</li>
+<li>青岛</li>
+<li>南通</li>
+<li>连云港</li>
+<li>淮安</li>
+<li>盐城</li>
+<li>扬州</li>
+<li>镇江</li>
+<li>泰州</li>
+<li>宿迁</li>
+<li>江阴</li>
+<li>宜兴</li>
+<li>张家港</li>
+<li>常熟</li>
+<li>丹阳</li>
+<li>溧阳</li>
+<li>句容</li>
+<li>溧水</li>
+<li>高淳</li>
+<li>金坛</li>
+<li>靖江</li>
+<li><a href="https://w102.ttkefu.com/k/linkurl/?t=6B1GIC8" target="_blank" rel="nofollow">咨询</a></li>
+</ul>
+<p>变频器维修，数控系统维修，伺服驱动器维修，直流调速器维修，伺服电机维修，工控触摸屏维修，软启动器维修，PLC维修，电源模块维修</p>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+<div class="inbox"></div>
+<div class="site-footer">
+	<div class="cloud-footer-feature">
+                    <ul>
+                        <li class="feature-item001 wow bounceIn" data-wow-delay="0.1s">1小时快速响应服务</li>
+                        <li class="feature-item002 wow bounceIn" data-wow-delay="0.2s">免费检测 免费咨询</li>
+                        <li class="feature-item003 wow bounceIn" data-wow-delay="0.3s">上门/寄送/来司维修</li>
+                        <li class="feature-item004 wow bounceIn" data-wow-delay="0.4s">修复率高 维修快</li>
+                    </ul>
+                </div>
+	<div class="footer-related">
+		<div class="footer-article container">
+			<dl class="contact">
+			<div class="fab">
+			<div class="fabl"><a href="../aboutus/index.html">关于我们</a></div>
+			<div class="fabr"><a href="../contactus/index.html">联系方式</a></div>
+			</div>
+				<dt style="float:left;">
+					<i class="iconfont"></i>
+				</dt>
+				<dd style="float:left;">
+					<p class="text">免费咨询</p>
+					<a href="https://w102.ttkefu.com/k/linkurl/?t=6B1GIC8" target="_blank" rel="nofollow">在线咨询</a>
+				</dd>
+			</dl>
+			<dl class="allweixiu-article">
+				<dt>工控维修中心</dt>
+				<dd><a href="../repair-1/index.html">数控系统维修</a></dd>
+						<dd><a href="../repair-2/index.html">变频器维修</a></dd>
+						<dd><a href="../repair-3/index.html">伺服驱动器维修</a></dd>
+						<dd><a href="../jqrwx/index.html">机器人维修</a></dd>
+						<dd><a href="../repair-4/index.html">直流调速器维修</a></dd>
+						<dd><a href="../repair-5/index.html">伺服电机维修</a></dd>
+						<dd><a href="../repair-6/index.html">工控触摸屏维修</a></dd>
+						<dd><a href="../repair-7/index.html">西门子维修</a></dd>
+						<dd><a href="../repair-8/index.html">软启动器维修</a></dd>
+						<dd><a href="../repair-9/index.html">电源模块维修</a></dd>
+						</dl>
+			<dl class="allweixiu-article2">
+				<dt>仪器仪表维修</dt>
+				<dd>检漏仪维修</dd>
+				<dd>工业探伤仪维修</dd>
+				<dd>色谱仪维修</dd>
+				<dd>光谱仪维修</dd>
+				<dd>质谱仪维修</dd>
+				<dd>烟气分析仪维修</dd>
+				<dd>信号分析仪维修</dd>
+				<dd>基因扩增仪维修</dd>
+				<dd>生化分析仪维修</dd>
+				<dd>频谱分析仪维修</dd>
+				<dd>全站测距仪维修</dd>
+				<dd>轮廓仪维修</dd>
+				<dd>粒子计数器维修</dd>
+				<dd>圆度仪维修</dd>
+				<dd>测序仪维修</dd>
+				<dd>滴定仪维修</dd>
+				<dd>微波网络分析仪维修</dd>
+				<dd>酶标仪维修</dd>
+				<dd>光度计维修</dd>
+				<dd>真空泵维修</dd>
+				<dd>粘度计维修</dd>
+				<dd>粒度仪维修</dd>
+				<dd>金属分析仪维修</dd>
+				<dd>热成像仪维修</dd>
+				<dd>测量仪维修</dd>
+				<dd>三维扫描仪维修</dd>
+				<dd>强度测试仪维修</dd>
+				<dd>振动分析仪维修</dd>
+				<dd>防水测试仪维修</dd>
+				<dd>热封试验仪维修</dd>
+				<dd>油品分析仪维修</dd>
+				<dd>热量分析仪维修</dd>
+			</dl>
+			</dl>
+		</div>
+		<div class="footer-links container">
+		</div>
+		<div class="footer-info">
+			<div class="info-text">
+				<p class="copyright">
+					<span>©CopyRight 2002-2020 湖北安顺佳数控科技有限公司 <a href="../index.html">www.hbanshunjia.com</a> 版权所有 <em></em></span><span><a href="https://beian.miit.gov.cn/" target="_blank" rel="nofollow">鄂ICP备12008432号-1</a><a href="../ec/mzsm.html" tppabs="http://www.hbsti.com/portal/index/mzsm.html" target="_blank" class="mzsmClass" style="margin-left: 10px; ">免责声明</a></span>
+				</p>
+				<p class="company-info"></p>
+				<p class="qualified">
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="czlkwxzxbox">
+	<div class="czlkwxzxboxcenter">
+		<ul class="czlkwxzxboxul">
+			<li class="czlkwxzxcontact"><a href="https://w102.ttkefu.com/k/linkurl/?t=6B1GIC8" target="_blank"  rel="nofollow"><img src="../templets/default/images/item-contact.gif" /></a></li>
+			<li><div class="plx">维修报价<br /><span>180-1831-1529</span></div><a href="tel:18018311529"><div class="mlx">维修报价</div></a></li>
+			<li><div class="plx">免费咨询<br /><span>180-1831-1529</span></div><a href="tel:18018311529"><div class="mlx">免费咨询</div></a></li>
+			<li><div class="plx">故障咨询<br /><span>180-1831-1529</span></div><div class="mlx" onclick="showwx()">微信咨询</div></li>
+			<li class="weixin">微信咨询<br /><img src="../templets/default/images/weixin.png" alt="官方微信" /></li>
+		</ul>
+		</div>
+</div>
+<!--手机站微信-->
+    <div id='myshow' class="tan">
+        <div class="kuang">
+            <b>复制成功</b><br/>
+            微信号：<span id="copy_content" class="txtcss">18018311529</span><br/>
+            添加微信好友, 详细了解产品<br />
+<p onclick="copywx()" class="copy"><a href="weixin://">知道了</a></p>
+			</div>
+        <div onclick="closeshow()" class="closeshow guanbi">x</div>
+    </div>
+<script src="../templets/default/style/wow.min.js"></script>
+<script>
+if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
+	new WOW().init();
+};
+</script>
+<script> 
+document.oncontextmenu=new Function("return false") 
+document.onselectstart=new Function("return false") 
+</script> 
+<!-- 
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?9a9271516fd62399ccb9db8637b41129";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+-->
+</body>
+
+<!-- /technical/183.html  17:14:12 GMT -->
+</html>
